@@ -26,8 +26,8 @@ const AddArticle = ({ saveArticle }) => {
           onChange={handleArticleData}
         />{" "}
         <br />
-        <input
-          type="text"
+        <textarea
+          type="message"
           id="body"
           placeholder="Body"
           onChange={handleArticleData}
